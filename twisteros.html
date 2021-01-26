@@ -31,30 +31,120 @@
 		<div class="center" style="width: 60% !important; margin-top: 100px;">
 			<div class="current-release">
 				<h1>Current Release</h1>
-				<h3>Twister OS 1.9.3</h3>
+				<h3>Twister OS 1.9.7</h3>
 			</div>
 			<div class="current-links">
-		      <a href="https://archive.org/download/twister-osv-1-9-3.img_202012/TwisterOSv1-9-3.img.xz"><button>DOWNLOAD</button></a>
-			  <a href="https://archive.org/download/twister-osv-1-9-3.img_202012/twister-osv-1-9-3.img_202012_archive.torrent"><button>TORRENT</button></a><br><br>
-			  <a style="margin-left: 100px;" href="https://drive.google.com/file/d/1NsxJz5ykeb3fuWDfookzGqSIxZf_FD9t/view">MIRROR</a>
+		      <a href="https://archive.org/download/twister-osv-1-9-7.img/TwisterOSv1-9-7.img.xz"><button>DOWNLOAD</button></a>
+			  <a href="https://archive.org/download/twister-osv-1-9-7.img/twister-osv-1-9-7.img_archive.torrent"><button>TORRENT</button></a><br><br>
+			  <a style="margin-left: 100px;" href="https://drive.google.com/file/d/15pc-vxc03es9mA3v6QHv0k47X52D4PXQ/view?usp=sharing">MIRROR</a>
 			  <p style="margin-left: 85px;">MD5 Checksum:</p>
-			  <p style="margin-left: 10px;">65f67e4b5473ea99bc27631fc602fa4f</p>
+			  <p style="margin-left: 10px;">95c1a3037801c350663f14c34152e5dd</p>
             </div>
-            <br><br>
+			<br><br>
+			<br><br>
+			<p style="text-align: center; margin-top: 50px; font-size: 20px;">Default Password: <span style="font-weight: bold;">raspberry</span></p>
+			<br>
+			<div><H3 style="text-align: center;">DOWNLOAD RASPBERRY PI IMAGER BELOW</H3></div>
+			<div class="center" style="margin-left: 32%;">
+			<p><a href="https://downloads.raspberrypi.org/imager/imager_1.5_amd64.deb">x86 Ubuntu</a></p>
+			<p><a href="https://downloads.raspberrypi.org/imager/imager_1.5.exe">Windows</a></p>
+			<p><a href="https://downloads.raspberrypi.org/imager/imager_1.5.dmg">Mac OS</a></p>
+			<p style="font-size: 20px; font-weight: bold;">Raspberry Pi OS -- <span class="code">sudo apt install rpi-imager</span></p>
+			</div>
 		</div>
 		
-            <h2 style="text-align: center; margin-top: 150px !important;">Patches</h2>
+            <h2 style="text-align: center; margin-top: 75px !important;">Patches</h2>
             
             <div style="width: 60%; margin: auto;" class="center">
                 <p class="center" style="line-height: 1.5em; width: 80%;">To determine which version of Twister OS you're currently using, check the README file on the Desktop. For version 1.5.2 and newer, simply open a terminal and type <span class="code">twistver</span></p>
                 <p style="text-align: center; text-decoration: underline;">Please patch in order, do not skip patches.</p>
 				<p style="text-align: center;">Twister OS Patcher has been included in version 1.6 patch</p><br>
 				<h4 style="text-align: center;">To download Twister OS Patcher copy the following into terminal.</h4>
-                <p class="code center" style="width: 60%;">wget https://raw.githubusercontent.com/FlameKat53/Twister-OS-Patcher/master/install.sh && chmod +x ./install.sh && ./install.sh && rm install.sh</p>
+                <p class="code center" style="width: 60%;">git clone https://github.com/Botspot/TwistUP && mv /home/pi/TwistUP /home/pi/patcher</p>
             </div>
 			<br><br>
 			
 			<div class="center" style="width: 50%;">
+
+				<ul class="PatchLink">
+					<li>Version 1.9.7</li>
+					<li>
+						<div class="ChangelogLink">
+							<div class="popup" id="popup197">
+								<p class="version">Version 1.9.7 patch notes:</p><br>
+								Updated Twister OS Web Apps Launcher to fix an issue with Netflix<br>
+								Changed Steam to launch in small mode by default<br><br>
+								<p class="close">close</p>
+							</div>
+							<p class="btn" data-popup="popup197">Changelog</p>
+						</div>
+					</li>
+					<li><a href="https://twisteros.com/Patches/TwisterOSv1-9-7Patch.run"><button>DOWNLOAD</button></a></li>
+				</ul>
+	
+				<br>
+
+
+				<ul class="PatchLink">
+					<li>Version 1.9.6</li>
+					<li>
+						<div class="ChangelogLink">
+							<div class="popup" id="popup196">
+								<p class="version">Version 1.9.6 patch notes:</p><br>
+								Added "About Twister OS" app<br>
+								Added Disk Usage Analyzer app<br>
+								Added Twister OS Web Apps Launcher app<br>
+								Updated Twister OS Diagnostics<br>
+							    Removed PulseAudio OSS wrapper due to incompatibility with new PulseAudio profile<br>
+								Added support for EXE file icons and double-clicking to launch with Wine<br>
+								Updated README, moved to universal location<br><br>
+								Thanks to Juan Lozano for his "About Twister OS" app, and to phoenixbyrd for his Twister OS Web Apps Launcher<br><br>
+								<p class="close">close</p>
+							</div>
+							<p class="btn" data-popup="popup196">Changelog</p>
+						</div>
+					</li>
+					<li><a href="https://twisteros.com/Patches/TwisterOSv1-9-6Patch.run"><button>DOWNLOAD</button></a></li>
+				</ul>
+	
+				<br>
+
+				<ul class="PatchLink">
+					<li>Version 1.9.5</li>
+					<li>
+						<div class="ChangelogLink">
+							<div class="popup" id="popup195">
+								<p class="version">Version 1.9.5 patch notes:</p><br>
+								Made optimization improvements to ThemeTwister<br>
+								Moved icon and sound files to universal locations<br>
+								Updated Twister OS graphics<br><br>
+								<p class="close">close</p>
+							</div>
+							<p class="btn" data-popup="popup195">Changelog</p>
+						</div>
+					</li>
+					<li><a href="https://twisteros.com/Patches/TwisterOSv1-9-5Patch.run"><button>DOWNLOAD</button></a></li>
+				</ul>
+	
+				<br>
+
+				<ul class="PatchLink">
+					<li>Version 1.9.4</li>
+					<li>
+						<div class="ChangelogLink">
+							<div class="popup" id="popup194">
+								<p class="version">Version 1.9.4 patch notes:</p><br>
+								Fixed an issue preventing Twister OS Patcher from self-updating on some systems<br>
+								Updated failsafe stable version of box86 to 0.1.8<br><br>
+								<p class="close">close</p>
+							</div>
+							<p class="btn" data-popup="popup194">Changelog</p>
+						</div>
+					</li>
+					<li><a href="https://twisteros.com/Patches/TwisterOSv1-9-4Patch.run"><button>DOWNLOAD</button></a></li>
+				</ul>
+	
+				<br>
 
 				<ul class="PatchLink">
 					<li>Version 1.9.3</li>
@@ -465,6 +555,6 @@
             $('.close').click(function(){
                 $('.popup').hide();
                 });
-        </script>
+		</script>
     </body>
 </html>
